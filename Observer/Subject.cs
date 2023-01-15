@@ -8,7 +8,7 @@ namespace Observer
 {
     internal class Subject : ISubject<IObserver>
     {
-        public string SubjectState { get; private set; }
+        public string? SubjectState { get; private set; } = null;
         public List<IObserver> Observers { get; set; } = new();
 
         public void Attach(IObserver observer)
