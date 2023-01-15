@@ -22,8 +22,12 @@ namespace Observer
         }
         public void SetSubjectState(string state)
         {
-            this.SubjectState = state;
-            Notify();
+            if(System.String.IsNullOrEmpty(state) )
+            {
+                SubjectState = state;
+                Notify();
+            }
+            
         }
 
         public void Notify()
