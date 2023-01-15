@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Observer
 {
-    internal class Subject : ISubject<Observer>
+    internal class Subject : ISubject<IObserver>
     {
         public string SubjectState { get; private set; }
-        public List<Observer> Observers { get; set; } = new();
+        public List<IObserver> Observers { get; set; } = new();
 
-        public void Attach(Observer observer)
+        public void Attach(IObserver observer)
         {
             Observers.Add(observer);
         }
 
-        public void Detach(Observer observer)
+        public void Detach(IObserver observer)
         {
             Observers.Remove(observer);
         }
