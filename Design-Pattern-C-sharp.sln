@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{FD98FCC5-EDBE-4AA4-B73B-E6411CFDBABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{FD98FCC5-EDBE-4AA4-B73B-E6411CFDBABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{98B9E74F-5C51-412F-83F6-3182495160F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FD98FCC5-EDBE-4AA4-B73B-E6411CFDBABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD98FCC5-EDBE-4AA4-B73B-E6411CFDBABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD98FCC5-EDBE-4AA4-B73B-E6411CFDBABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B9E74F-5C51-412F-83F6-3182495160F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B9E74F-5C51-412F-83F6-3182495160F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B9E74F-5C51-412F-83F6-3182495160F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B9E74F-5C51-412F-83F6-3182495160F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
